@@ -23,5 +23,12 @@ public class Main {
         v1.start();
         v2.start();
         v3.start();
+
+        // Compile-time Polymorphism
+        v1.start("Sport");
+
+        v2.start("Eco");
+
+
     }
 }

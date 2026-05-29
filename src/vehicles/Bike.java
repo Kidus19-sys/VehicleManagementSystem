@@ -3,7 +3,7 @@ package vehicles;
 public class Bike extends Vehicle {
 
     private boolean hasHelmet;
-
+//consrtauctor
     public Bike(String brand, int speed, boolean hasHelmet) {
         super(brand, speed);
         this.hasHelmet = hasHelmet;

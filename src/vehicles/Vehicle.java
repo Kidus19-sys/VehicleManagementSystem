@@ -34,8 +34,15 @@ public class Vehicle {
 
     // Methods
     public void start() {
-        System.out.println(brand + " is starting...");
+        System.out.println("Vehicle is starting...");
     }
+
+    // Compile-time Polymorphism (Method Overloading)
+    public void start(String mode) {
+        System.out.println("Vehicle is starting in " + mode + " mode...");
+    }
+
+
 
     public void stop() {
         System.out.println(brand + " is stopping...");
