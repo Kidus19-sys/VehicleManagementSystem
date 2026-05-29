@@ -24,7 +24,10 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java Files
-        run: javac src/*.java
+        run: javac src/vehicles/*.java
 
       - name: Run Basic Check
         run: echo "Pipeline Successful"
+
+
+
